@@ -2,8 +2,8 @@
 
 from Student import *
 
-oStudent1 = Student('Joe Schmoe')
-oStudent2 = Student('Jane Smith')
+oStudent1 = Student('Joe Schmoe',14)
+oStudent2 = Student('Jane Smith',15)
 
 # Get the students' grades using the 'grade' property and print
 print(oStudent1.grade)
@@ -14,7 +14,7 @@ print()
 oStudent1.grade = 85
 oStudent2.grade = 92
 
-oStudent1.grade = 'abc'
+# oStudent1.grade = 'abc'
 
 
 print(oStudent1.grade)

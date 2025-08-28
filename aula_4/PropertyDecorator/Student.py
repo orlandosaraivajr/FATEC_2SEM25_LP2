@@ -4,7 +4,7 @@ class Student():
 
     def __init__(self, name, startingGrade=0):
         self.__name = name
-        self.grade = startingGrade
+        self.__grade = startingGrade
 
     @property
     def grade(self):
